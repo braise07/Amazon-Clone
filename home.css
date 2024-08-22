@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#main {
+  background-color: #0f1111;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 50px;
+  width: 112px;
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  margin-left: 15px;
+  margin-right: 17px;
+}
+
+#mainadd {
+  display: flex;
+  flex-direction: column;
+  margin-right: 17px;
+}
+
+#add1 {
+  color: #cccccc;
+  font-size: 12px;
+}
+
+#add2 {
+  color: white;
+  margin-right: 4px;
+  margin-top: 7px;
+}
+
+#add3 {
+  color: white;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+#options {
+  background-color: #e6e6e6;
+  height: 40px;
+  width: 52px;
+  padding-left: 9px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#search {
+  height: 37px;
+  width: 390px;
+  background-color: white;
+  padding-left: 9px;
+  font-weight: 80px;
+}
+
+#search_logo {
+  background-color: rgb(216, 150, 27);
+  height: 40px;
+  width: 40px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero1{
+    background-image:linear-gradient(-90deg,red,orange,yellow,blue);
+    margin-top:1px;
+    height:952px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#languages {
+  height: 50px;
+  width: 72px;
+  margin-left: 17px;
+  display: flex;
+  justify-content: center;
+ align-content: center;
+}
+
+#lang_logo {
+  height: 31px;
+  width: 31px;
+  background-image: url(lang_logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 29px;
+}
+
+.accounts{
+    color:white;
+    margin-right: 15px;
+}
+
+#secd_head {
+  background-color: #222f3e;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+#seclogo{
+      display: flex;
+}
+
+#sec p {
+    display: inline;
+    margin-right: 9px;
+    font-size: 14px;
+}
+
+#sec{
+    margin-left: 12px;
+    width: 91%;
+}
+
+.updiv{
+  text-align: center;
+  width:990px;
+  background-color: white;
+  font-size: 13px;
+  height: 30px;
+}
+
+.updiv p{
+  padding-top: 8px;
+}
+
+.hhero1{
+  height:420px;
+  width: 307px;
+  background-color: white;
+}
+
+.subcol{
+  width:266px;
+  height:27px;
+  font-size: 21px;
+  font-weight: 550;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.subpic{
+  height:240px;
+  width: 227px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 40px 20px 40px 20px;
+  background-image: url(block1.jpg);
+  background-size: cover;
+}
+
+.subpic1{
+  height:240px;
+  width: 227px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 40px 20px 40px 20px;
+  background-image: url(block2.jpg);
+  background-size: cover;
+}
+
+.subpic2{
+  height:240px;
+  width: 227px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 40px 20px 40px 20px;
+  background-image: url(block3.jpg);
+  background-size: cover;
+}
+
+.subpic3{
+  height:240px;
+  width: 227px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 40px 20px 40px 20px;
+  background-image: url(block4.jpg);
+  background-size: cover;
+}
+
+.subpic4{
+  height:240px;
+  width: 227px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 40px 20px 40px 20px;
+  background-image: url(block5.jpg);
+  background-size: cover;
+}
+
+.subpic5{
+  height:240px;
+  width: 227px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 40px 20px 40px 20px;
+  background-image: url(block6.jpg);
+  background-size: cover;
+}
+
+.see{
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.see a{
+  text-decoration: none;
+}
+
+.foot{
+  font-size: 13px;
+  text-align: center;
+  height:25px;
+  width:100%;
+  background-color: #3a4a5c;
+  padding-top: 15px;
+}
+
+.foot a{
+  color: white;
+}
+
+.foot1{
+  height:300px;
+  width:100%;
+  background-color: #222f3e;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.foot11 li{
+  list-style-type: none; 
+  padding-top: 3px;
+  color: #e6e6e6;
+}
+
+.foot2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height : 77px;
+  width: 100%;
+  background-color: #0f1111;
+  color:white;
+  font-size: 12px;
+}
+
+.foot2 a{
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
